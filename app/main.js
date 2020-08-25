@@ -1,7 +1,7 @@
-import ItemsController from "./Controllers/ItemsController.js";
+import Controller from "./Controllers/ItemsController.js";
 
 class App {
-  itemsController = new ItemsController();
+  itemsController = new Controller();
 }
 
 window["app"] = new App();
